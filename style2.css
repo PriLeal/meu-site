@@ -1,45 +1,78 @@
-h2{
-background-color: aqua;
-
-}
-
 *{
-    display: inline-block;
-    background-color: aquamarine;
+    background-color: aquamarine
 }
 
-.footer{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(2, 35, 35);
-    font-size: 20px;
-    padding: 50px; 
-}
 
 .video{
-    border: 20px;
-    border-style: double;
-    border-color: rgb(3, 55, 69);
-    margin: 30px;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 50px;
 }
 
-iframe{
-    justify-items: baseline;
+
+
+.exemplos{
+    display: flex;
+    align-content: center;
+    justify-content: center;
     border: 20px;
-    border-style: double;
-    border-color: rgb(3, 55, 69);
-    margin: 30px;
+    border-radius: 50px;
+    border-color: aqua;
+    border-style: groove;
+    padding: 50px;
+    margin: 20px;
+    background-color: rgb(6, 97, 39);
 }
 
 title{
-    color: blueviolet;
-    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
-.login-button{
-    border: none;
-    background-color: #0187a7;
-    padding: 5px 5px;
-    border-radius: 5px;
-   color: #fff;
-   text-decoration: none;
+#logo{
+    margin: 20px;
+    border:10px;
+    border-color: brown;
+    border-radius: 20px;
+    border-style:dotted;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border: 20px;
+    border-radius: 50px;
+    border-color: aqua;
+    border-style: groove;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(6, 97, 39);
+}
+
+#item{
+    padding: 20px;
+    margin:20px;
+}
+
+
+.link{
+    font-weight: 80;
+    font-size: 2rem;
+    color: rgb(24, 1, 1);
+    text-decoration: none;
+}
+
+
+p{
+    color: rgb(24, 1, 1);
+    font-weight: 80;
+    font-size: 2rem;
+}
+
+
+h1{
+    display: flexbox;
+    align-self: flex-end;
 }
