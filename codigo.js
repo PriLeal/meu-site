@@ -1,2 +1,2 @@
-var descricao="BEM VINDO(A)!"
-alert (descricao)
+//var descricao="BEM VINDO(A)!"
+//alert (descricao)
